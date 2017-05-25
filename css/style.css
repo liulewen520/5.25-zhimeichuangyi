@@ -1,0 +1,160 @@
+body{
+	margin:0;
+	padding:0;
+}
+/*¶¥²¿*/
+.w{
+	width:100%;
+	background:#DCDCDC;
+}
+.x{
+	width:1200px;
+	margin:0 auto;
+}
+.z1{
+	height:50px;
+	position:relative;
+}
+.z1 p{
+	position:absolute;
+	right:10px;
+	bottom:0;
+	font-weight:bold;
+}
+/*µ¼º½À¸*/
+.z2{
+	height:100px;
+	position:relative;
+}
+.pic1{
+	width:200px;
+	height:100px;
+}
+.pic1 img{
+	margin-top:40px;
+}
+/*µ¼º½À¸Á´½Ó*/
+.dhl{
+	width:720px;
+	height:40px;
+	position:absolute;
+	right:0;
+	bottom:5px;
+}
+.dhl ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.dhl li{
+	float:left;
+	width:119px;
+	height:40px;
+	text-align:center;
+	font:20px/40px "simsun";
+	border-right:1px solid black;
+}
+.dhl li.no{
+	border:0;
+}
+.dhl a{
+	display:block;
+	width:100%;
+	height:50px;;
+	color:black;
+	text-decoration:none;
+}
+.dhl a:hover{
+	font-weight:bold;
+	border-bottom:5px solid black;
+}  /*µ¼º½À¸Ð´Íê*/
+/*±³¾°Í¼Æ¬*/
+.z3{
+	width:100%;
+	height:400px;
+	background:url("../img/3.gif");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+/*µ×²¿½éÉÜ*/
+.z4{
+	height:50px;
+	background:#2D3237;
+}
+.z4 p{
+	width:200px;
+	height:50px;
+	margin:40px auto;
+	text-align:center;
+	font:30px/50px "simsun";
+	font-weight:bold;
+}
+.z4 p .red{
+	color:red;
+}
+.z4 p .white{
+	color:white;
+}
+/*ÈÃy1¸Ç×¡y ÊµÏÖÒþ²Ø±ß¿ò*/
+.y{
+	height:65px;
+	border-bottom:1px solid black;
+	z-index:1;
+}
+.y1{
+	width:80px;
+	height:30px;
+	margin:0 auto;
+	background:white;
+	font:20px/30px "simhei";
+	text-align:center;
+	z-index:2;
+}
+/*µ×²¿¡£¡£*/
+.z5{
+	height:150px;
+	text-align:center;
+}
+.z5 span{
+	font-size:36px;
+}
+.z6{
+	height:200px;
+	padding-top:30px;
+}
+/*µ×²¿µ¼º½*/
+.dbdh{
+	width:400px;
+	height:40px;
+	margin:0 auto;
+}
+.dbdh ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.dbdh li{
+	float:left;
+	width:99px;
+	height:40px;
+	text-align:center;
+	font:20px/40px "simhei";
+	border-right:1px solid black;
+}
+.dbdh li.my{
+	border:0;
+}
+.dbdh a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:black;
+	text-decoration:none;
+}
+.z6 p{
+	width:400px;
+	height:30px;
+	margin:0 auto;
+	text-align:center;
+	font:20px/30px "simhei";
+}
