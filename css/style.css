@@ -21,6 +21,21 @@ body{
 	bottom:0;
 	font-weight:bold;
 }
+/*引用自己的字体*/
+/*开始引入路径不对，习惯性的在CSS里面不找上一级*/
+ @font-face {
+	
+	/*创建字体的名字：叫 myFont，后面就可以使用这个字体了*/
+	font-family: myFont; 
+	/*引入字体文件的路径*/
+	src: url("../Bodoni.ttf");
+}  
+
+.z1 span{
+	/*myFont 自己字体的名字*/
+	font-family: myFont;
+	font-size:20px;
+}
 /*导航栏*/
 .z2{
 	height:100px;
@@ -31,7 +46,7 @@ body{
 	height:100px;
 }
 .pic1 img{
-	margin-top:40px;
+	margin-top:20px;
 }
 /*导航栏链接*/
 .dhl{
@@ -39,7 +54,7 @@ body{
 	height:40px;
 	position:absolute;
 	right:0;
-	bottom:5px;
+	top:20px;
 }
 .dhl ul{
 	margin:0;
@@ -72,9 +87,47 @@ body{
 .z3{
 	width:100%;
 	height:400px;
-	background:url("../img/3.gif");
-	background-repeat:no-repeat;
+/*把0写成O*/
+	background:url("../img/3.gif")no-repeat center 0;
 	background-size:100% 100%;
+}
+/*往背景图片里面添加一个标签*/
+.zmcy{
+	width:415px;
+	height:80px;
+	border:1px solid red;
+	margin:0 auto;
+}
+.zmcy p{
+	float:left;
+}
+.p1{
+	height:40px;
+	background:red;
+	width:50px;
+	color:white;
+	margin:10px;
+	padding:10px;
+	text-align:center;
+	font:20px/20px "simhei";
+	font-weight:bold;
+}
+.p2{
+	width:225px;
+	height:80px;
+	color:white;
+	font:55px/80px "simsun";
+	margin:0;
+	font-weight:bold;
+}
+.p3{
+	width:80px;
+	height:60px;
+	color:white;
+	margin:0;
+	padding:10px;
+	text-align:center;
+	font:20px/30px "simhei";
 }
 /*底部介绍*/
 .z4{
