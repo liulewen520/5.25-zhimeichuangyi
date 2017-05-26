@@ -118,6 +118,7 @@ body{
 .z5 span{
 	font-size:36px;
 }
+/*遇到问题，用dbdh加margin无法生效，只能z6加padding*/
 .z6{
 	height:200px;
 	padding-top:30px;
@@ -137,6 +138,7 @@ body{
 	float:left;
 	width:99px;
 	height:40px;
+	/*margin:30px auto; 是无法生效的*/
 	text-align:center;
 	font:20px/40px "simhei";
 	border-right:1px solid black;
