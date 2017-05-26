@@ -2,7 +2,7 @@ body{
 	margin:0;
 	padding:0;
 }
-/*¶¥²¿*/
+/*é¡¶éƒ¨*/
 .w{
 	width:100%;
 	background:#DCDCDC;
@@ -21,22 +21,22 @@ body{
 	bottom:0;
 	font-weight:bold;
 }
-/*ÒıÓÃ×Ô¼ºµÄ×ÖÌå*/
-/*¿ªÊ¼ÒıÈëÂ·¾¶²»¶Ô£¬Ï°¹ßĞÔµÄÔÚCSSÀïÃæ²»ÕÒÉÏÒ»¼¶*/
+/*å¼•ç”¨è‡ªå·±çš„å­—ä½“*/
+/*å¼€å§‹å¼•å…¥è·¯å¾„ä¸å¯¹ï¼Œä¹ æƒ¯æ€§çš„åœ¨CSSé‡Œé¢ä¸æ‰¾ä¸Šä¸€çº§*/
  @font-face {
 	
-	/*´´½¨×ÖÌåµÄÃû×Ö£º½Ğ myFont£¬ºóÃæ¾Í¿ÉÒÔÊ¹ÓÃÕâ¸ö×ÖÌåÁË*/
+	/*åˆ›å»ºå­—ä½“çš„åå­—ï¼šå« myFontï¼Œåé¢å°±å¯ä»¥ä½¿ç”¨è¿™ä¸ªå­—ä½“äº†*/
 	font-family: myFont; 
-	/*ÒıÈë×ÖÌåÎÄ¼şµÄÂ·¾¶*/
+	/*å¼•å…¥å­—ä½“æ–‡ä»¶çš„è·¯å¾„*/
 	src: url("../Bodoni.ttf");
 }  
 
 .z1 span{
-	/*myFont ×Ô¼º×ÖÌåµÄÃû×Ö*/
+	/*myFont è‡ªå·±å­—ä½“çš„åå­—*/
 	font-family: myFont;
 	font-size:20px;
 }
-/*µ¼º½À¸*/
+/*å¯¼èˆªæ */
 .z2{
 	height:100px;
 	position:relative;
@@ -48,7 +48,7 @@ body{
 .pic1 img{
 	margin-top:20px;
 }
-/*µ¼º½À¸Á´½Ó*/
+/*å¯¼èˆªæ é“¾æ¥*/
 .dhl{
 	width:720px;
 	height:40px;
@@ -82,101 +82,75 @@ body{
 .dhl a:hover{
 	font-weight:bold;
 	border-bottom:5px solid black;
-}  /*µ¼º½À¸Ğ´Íê*/
-/*±³¾°Í¼Æ¬*/
+}  /*å¯¼èˆªæ å†™å®Œ*/
+/*èƒŒæ™¯å›¾ç‰‡*/
 .z3{
 	width:100%;
 	height:400px;
-/*°Ñ0Ğ´³ÉO*/
+/*æŠŠ0å†™æˆO*/
 	background:url("../img/3.gif")no-repeat center 0;
 	background-size:100% 100%;
 }
-/*Íù±³¾°Í¼Æ¬ÀïÃæÌí¼ÓÒ»¸ö±êÇ©*/
-.zmcy{
-	width:415px;
-	height:80px;
-	border:1px solid red;
-	margin:0 auto;
-}
-.zmcy p{
-	float:left;
-}
-.p1{
-	height:40px;
-	background:red;
-	width:50px;
-	color:white;
-	margin:10px;
-	padding:10px;
-	text-align:center;
-	font:20px/20px "simhei";
-	font-weight:bold;
-}
-.p2{
-	width:225px;
-	height:80px;
-	color:white;
-	font:55px/80px "simsun";
-	margin:0;
-	font-weight:bold;
-}
-.p3{
-	width:80px;
-	height:60px;
-	color:white;
-	margin:0;
-	padding:10px;
-	text-align:center;
-	font:20px/30px "simhei";
-}
-/*µ×²¿½éÉÜ*/
+/*æˆåŠŸæ¡ˆä¾‹*/
 .z4{
-	height:50px;
-	background:#2D3237;
+	border-bottom:2px solid #DCDCDC;
 }
 .z4 p{
-	width:200px;
+	width:100px;
 	height:50px;
-	margin:40px auto;
+	margin:0;
+	padding:0;
+}
+.z4 a{
+	display:block;
+	width:100%;
+	height:100%;
 	text-align:center;
-	font:30px/50px "simsun";
+	color:black;
+	text-decoration:none;
 	font-weight:bold;
+	font:20px/50px "simhei";
 }
-.z4 p .red{
-	color:red;
+.z4 a:hover{
+	font-weight:bold;
+	border-bottom:3px solid black;	
 }
-.z4 p .white{
-	color:white;
+/*æ’å…¥å›¾ç‰‡*/
+.z5 ul{
+	margin:0;
+	padding:0;
+	list-style:none;
 }
-/*ÈÃy1¸Ç×¡y ÊµÏÖÒş²Ø±ß¿ò*/
-.y{
-	height:65px;
-	border-bottom:1px solid black;
-	z-index:1;
+.z5 ul li{
+	float:left;
+	width:240px;
+	height:175px;
+	text-align:center;
 }
-.y1{
-	width:80px;
-	height:30px;
+.z8{
+	clear:both;
+	width:400px;
+	height:50px;
 	margin:0 auto;
+	text-align:center;
+}
+.z8 input{
+	float:left;
+	width:100px;
+	height:50px;
 	background:white;
-	font:20px/30px "simhei";
-	text-align:center;
-	z-index:2;
+	border:0;
+	font:20px/50px "simhei";
 }
-/*µ×²¿¡£¡£*/
-.z5{
-	height:150px;
-	text-align:center;
+.z8 input:hover{
+	border:3px solid #99ff99;
 }
-.z5 span{
-	font-size:36px;
-}
-/*Óöµ½ÎÊÌâ£¬ÓÃdbdh¼ÓmarginÎŞ·¨ÉúĞ§£¬Ö»ÄÜz6¼Ópadding*/
-.z6{
+/*é‡åˆ°é—®é¢˜ï¼Œç”¨dbdhåŠ marginæ— æ³•ç”Ÿæ•ˆï¼Œåªèƒ½z6åŠ padding*/
+.z9{
 	height:200px;
 	padding-top:30px;
 }
-/*µ×²¿µ¼º½*/
+/*åº•éƒ¨å¯¼èˆª*/
 .dbdh{
 	width:400px;
 	height:40px;
@@ -191,7 +165,7 @@ body{
 	float:left;
 	width:99px;
 	height:40px;
-	/*margin:30px auto; ÊÇÎŞ·¨ÉúĞ§µÄ*/
+	/*margin:30px auto; æ˜¯æ— æ³•ç”Ÿæ•ˆçš„*/
 	text-align:center;
 	font:20px/40px "simhei";
 	border-right:1px solid black;
@@ -206,7 +180,7 @@ body{
 	color:black;
 	text-decoration:none;
 }
-.z6 p{
+.z9 p{
 	width:380px;
 	height:30px;
 	margin:0 auto;
